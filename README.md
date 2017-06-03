@@ -30,13 +30,13 @@ Holds personal guidelines and tips for using Python 3.6.
 ## Environment Setup
 Below required installation steps for setting up a working environment for 
 Python:
-1. Install Python 3 from the [Python Website](#https://www.python.org/) 
+1. Install Python 3 from the [Python Website](https://www.python.org/) 
 2. Upgrade pip (used for installing python modules) from the 
-   [Pip Website](#https://pip.pypa.io/en/stable/installing/#upgrading-pip) 
+   [Pip Website](https://pip.pypa.io/en/stable/installing/#upgrading-pip) 
 3. Install the code coverage tool Coverage from the 
-   [Coverage Website](#https://coverage.readthedocs.io/en/coverage-4.4.1/install.html)
+   [Coverage Website](https://coverage.readthedocs.io/en/coverage-4.4.1/install.html)
 4. Install the code analysis tool Pylint from the 
-   [Pylint Website](#https://www.pylint.org/#install)
+   [Pylint Website](https://www.pylint.org/#install)
 
 ## Code Analysis Tools
 
@@ -46,27 +46,27 @@ Pylint is used for:
 2. Style checks
 3. Generating UML documentation
 
-Refer to the [Pylint Website](#https://www.pylint.org/) for use information.
+Refer to the [Pylint Website](https://www.pylint.org/) for use information.
 
 ### Pydoc
 Pydoc is used for:
 1. Generating documentation from Python coded comments
 
-Refer to the [Pydoc Documentation Website](#https://docs.python.org/3.6/library/pydoc.html) 
+Refer to the [Pydoc Documentation Website](https://docs.python.org/3.6/library/pydoc.html) 
 for use information.
 
 ### Coverage
 Coverage is used for:
 1. Code coverage analysis and reporting
 
-Refer to the [Coverage Website](#https://coverage.readthedocs.io/en/coverage-4.4.1/) 
+Refer to the [Coverage Website](https://coverage.readthedocs.io/en/coverage-4.4.1/) 
 for use information.
 
 ## Style
-Refer to the [Pep-008 Python Style Guide](#https://www.python.org/dev/peps/pep-0008/). 
+Refer to the [Pep-008 Python Style Guide](https://www.python.org/dev/peps/pep-0008/). 
 
 ## Testing
-Refer to the [Unittest Documentation Website](#https://docs.python.org/3.6/library/unittest.html).
+Refer to the [Unittest Documentation Website](https://docs.python.org/3.6/library/unittest.html).
 
 ## Virtual Environment
 
