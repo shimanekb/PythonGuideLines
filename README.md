@@ -12,7 +12,7 @@ Holds personal guidelines and tips for using Python 3.6.
 5. [Virtual Environment](#virtual-environment)
 6. [Build Mangement](#build-management)
     1. [Dependencies Management](#dependencies)
-7. [Project Structures](#project-types)
+7. [Project Structures](#project-structures)
     1. [Command Line Application](#command-line-application)
     2. [Library](#library)
 8. [Readme Templates](#readme-templates)
