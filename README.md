@@ -18,6 +18,7 @@ Holds personal guidelines and tips for using Python 3.6.
 8. [Readme Templates](#readme-templates)
     1. [General](#general)
     2. [Application or Library](#application-or-library) 
+    3. [Spike](#spike)
 9. [Code Review Checklist](#code-review-checklist)
 10. [Recommended Library List](#recommended-library-list)
     1. [REST](#rest)
@@ -77,21 +78,90 @@ Refer to the [Unittest Documentation Website](https://docs.python.org/3.6/librar
 ## Project Structures
 
 ### Command Line Application
+project/
+|--bin/
+|   |--project #bat or shell
+|--project/
+|   |--tests/
+|   |   |--test_*.py #naming convention for tests
+|   |   |--__init__.py
+|   |--__main__.py
+|   |--__init__.py
+|--requirements.txt
+|--setup.py
+|--README.md
 
 ### Library
+project/
+|--project/
+|   |--tests/
+|   |   |--test_*.py #naming convention for tests
+|   |   |--__init__.py
+|   |--__init__.py
+|--requirements.txt
+|--setup.py
+|--README.md
 
 ## Readme Templates
 
 ### General
+<pre>
+    # Title
+    Brief summary
+
+    ## Contents
+    1. [Item One](#item-one)
+
+    ## Item One
+    lorem ipsum ....
+
+</pre>
 
 ### Application or Library
+<pre>
+    # Title
+    Brief summary
+
+    ## Contents
+    1. [How to Use](#how-to-use)
+    2. [Configurations](#configurations)
+    3. [Usage Scenarios](#usage-scenarios)
+    4. Misc items ....
+    5. [Design](#design)
+    6. [Change Log](#change-log)
+    7. [Todo](#todo)
+</pre>
+
+### Spike
+<pre>
+    # Title
+    Brief summary
+    
+    ## Contents
+    1. [Item One](#item-one)
+    2. Continued Items ...
+    3. [Overall Reccomendations](#overall-reccomendations)
+    4. [Team Decisions](#team-decisions)
+    5. [Output Stories](#output-stories)
+
+    ## Item One
+    context .....
+
+    ### Goal
+    lorem ipsom ...
+
+    ### Design
+    lorem ipsom ...
+
+    ### Conclusion
+    lorem ipsom ...
+</pre>
 
 ## Code Review Checklist
-
 Run through the listed items in order.
 
 1. Check code against requirements.
-2. Run automated code analysis tools:
+2. Run automated code analysis tools (with clean environment/cache):
     1. Tests 
     2. Style check
     3. Bug/Error check
