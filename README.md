@@ -78,29 +78,33 @@ Refer to the [Unittest Documentation Website](https://docs.python.org/3.6/librar
 ## Project Structures
 
 ### Command Line Application
-project/
-|--bin/
-|   |--project #bat or shell
-|--project/
-|   |--tests/
-|   |   |--test_*.py #naming convention for tests
-|   |   |--__init__.py
-|   |--__main__.py
-|   |--__init__.py
-|--requirements.txt
-|--setup.py
-|--README.md
+<pre>
+    project/
+    |--bin/
+    |   |--project #bat or shell
+    |--project/
+    |   |--tests/
+    |   |   |--test_*.py #naming convention for tests
+    |   |   |--__init__.py
+    |   |--__main__.py
+    |   |--__init__.py
+    |--requirements.txt
+    |--setup.py
+    |--README.md
+</pre>
 
 ### Library
-project/
-|--project/
-|   |--tests/
-|   |   |--test_*.py #naming convention for tests
-|   |   |--__init__.py
-|   |--__init__.py
-|--requirements.txt
-|--setup.py
-|--README.md
+<pre>
+    project/
+    |--project/
+    |   |--tests/
+    |   |   |--test_*.py #naming convention for tests
+    |   |   |--__init__.py
+    |   |--__init__.py
+    |--requirements.txt
+    |--setup.py
+    |--README.md
+</pre>
 
 ## Readme Templates
 
